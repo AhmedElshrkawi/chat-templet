@@ -1,0 +1,64 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    height: 100vh;
+    place-content:center;
+    overflow: hidden;
+    font-size: 10px;
+    /* background-color: rgba(0, 0, 0, 0.635); */
+    color: white;
+    background-color:darkslategrey ;
+    
+}
+input,
+textarea{
+    padding: 10px;
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+}
+#demo{
+ position: relative;
+ bottom: 30px;
+ right: 30px;
+}
+#startchat,
+#closes,
+#send{
+    border: 0;
+    outline: 0;
+    background-color: tomato;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+
+}
+#form-chat>input,
+textarea{
+width: 100%;
+margin-bottom: 15px;
+border: 1px solid #ddd;
+}
+#form-chat{
+     width: 500px;
+     background-color: white;
+     padding: 15px;
+     border-radius: 10px;
+}
+#send{
+    background-color: rgb(10, 117, 224);
+}
+#closes{
+    background-color: rgb(13, 101, 13);
+}
